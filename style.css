@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Passion+One&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+  display: flex;
+  align-items: center;
+  /* justify-content: center; */
+  flex-direction: column;
+  height: 100%;
+  width: 100vw;
+}
+  
+.headcont{
+  color: black;
+  width: 80vw;
+  font-weight: 600;
+  height: 80px;
+  background-color: #ffbb00;
+  display: flex;
+  font-size: 30px;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Passion One', cursive;
+  margin-top: 20px;
+  transform: matrix(0.97, 0, -0.24, 1, 0, 0);
+  overflow: hidden;
+}
+
+.maincont {
+  height: 80vh;
+  width: 757px;
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  background-color: black;
+  overflow: hidden;
+
+
+}
+
+.slidecont {
+  height: 70vh;
+  width: fit-content;
+  background-color: rgba(0, 0, 0, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transform: translateX(0px);
+  transition: transform .8s ease-out;
+}
+
+.img {
+  height: 300px;
+  width: 215px;
+  margin: 0 20px;
+  -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0006);
+}
+
+.controls{
+  color: rgb(0, 0, 0);
+  font-size: 20px;
+  border: none;
+  height: 50px;
+  width: fit-content;
+  display: flex;
+  position: absolute;
+  top: 50vh;
+}
+
+.controls i{
+  height: 40px;
+  width: 40px;
+  background-color: #ffbb00;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+#btn1{
+  margin-right: 40vw;
+}
+#btn2{
+  margin-left: 40vw;
+}
+
+
